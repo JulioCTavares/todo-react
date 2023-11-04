@@ -1,6 +1,13 @@
+import { Header } from "./Components/Header"
+
 const App = () => {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Header />
+      <main>
+        some content
+      </main>
+    </>
   )
 }
 
